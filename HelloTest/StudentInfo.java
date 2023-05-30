@@ -13,6 +13,8 @@ public class StudentInfo {
 			sem = Sem;
 		}
 		
+		StudentInfo(){}
+		
 		public String getName() 
 		{
 			return name;

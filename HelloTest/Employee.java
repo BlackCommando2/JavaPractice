@@ -13,4 +13,10 @@ public class Employee {
 	{
 		System.out.println(this.empName+"		"+this.joinYear+"			"+this.address);
 	}
+	
+	@Override
+	public String toString()
+	{
+		return("Employee Name: "+this.empName+" Joining Year: "+this.joinYear+" Address: "+this.address);
+	}
 }

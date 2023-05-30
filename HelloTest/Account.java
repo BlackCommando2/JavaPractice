@@ -59,4 +59,9 @@ public class Account
 		Balance += amt;
 		return Balance;
 	}
+	
+	@Override
+	public String toString() {
+		return("Account Holder: "+ this.getName()+" Balance: "+this.getBalance());
+	}
 }
