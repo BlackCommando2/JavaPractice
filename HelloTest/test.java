@@ -2,26 +2,13 @@
 public class test {
 
 	public static void main(String[] args) 
-	{
-//		Employee[] emp = new Employee[3];
-//		emp[0] = new Employee("abc",2000,"ewvwevw");
-//		emp[1] = new Employee("jkl",2010,"fwefewew");
-//		emp[2] = new Employee("bnm",2020,"wfwegwe");
-//		System.out.println("Name		Year of Joining		Address");
-//		emp[0].display();
-//		emp[1].display();
-//		emp[2].display();
-//		System.out.println(emp[1]);
+	{	
+//		Employee2 e1 = new Employee2("faf",9,1203,"ADDDD",50000,"cloud","IT");
+//		Manager m1 = new Manager("asas",13,12023,"ADDDD",100000,"management","HR");
+//		System.out.println(e1);
+//		System.out.println(m1);
 		
-//		Account a1 = new Account();
-//		System.out.println(a1);
-		
-		Academic ac1 = new Academic();
-		ac1.setName("brberb");
-		ac1.setAge(0);
-		ac1.setEnrollment(2078);
-		ac1.setResult("Pass");
-		
-		System.out.println(ac1);
+		PersonalStudent s1 = new PersonalStudent("faf","DASd@gmail.com","sdasd",1236);
+		System.out.println(s1);
 	}
 }

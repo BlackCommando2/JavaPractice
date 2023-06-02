@@ -1,9 +1,9 @@
 
-public class Academic extends StudentInfo {
+public class Academic extends PersonalStudent {
 	public int enrollment;
 	public String result;
-	Academic(String Name, int Age, String Branch, int Sem, int enrollment, String result) {
-		super(Name, Age, Branch, Sem);
+	Academic(String name, String email, String add, int pno, int enrollment, String result) {
+		super(name, email, add, pno);
 		this.enrollment = enrollment;
 		this.result = result;
 	}
