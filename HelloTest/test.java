@@ -1,4 +1,4 @@
-import SameMethodCall.*;
+//import SameMethodCall.*;
 //import MethodCall.*;
 public class test {
 
@@ -11,9 +11,9 @@ public class test {
 		
 //		PersonalStudent s1 = new PersonalStudent("faf","DASd@gmail.com","sdasd",1236);
 //		System.out.println(s1);
-		sAddition a = new sAddition();
-		System.out.println(a.toAdd(1, 2));
-		sMultiplication m = new sMultiplication();
-		System.out.println(m.toMultiply(1, 2));
+//		sAddition a = new sAddition();
+//		System.out.println(a.toAdd(1, 2));
+//		sMultiplication m = new sMultiplication();
+//		System.out.println(m.toMultiply(1, 2));
 	}
 }
