@@ -1,5 +1,5 @@
 //import SameMethodCall.*;
-//import MethodCall.*;
+import MethodCall.*;
 public class test {
 
 	public static void main(String[] args) 
@@ -13,7 +13,8 @@ public class test {
 //		System.out.println(s1);
 //		sAddition a = new sAddition();
 //		System.out.println(a.toAdd(1, 2));
-//		sMultiplication m = new sMultiplication();
-//		System.out.println(m.toMultiply(1, 2));
+		Multiplication m = new Multiplication();
+		System.out.println(m.multiply(1, 2));
+//		m.multiply(1, 2);
 	}
 }
