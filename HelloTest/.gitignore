@@ -39,3 +39,6 @@
 /rectangle.class
 /circle.class
 /triangle.class
+/Vehicle.class
+/Main_Vehicle.class
+/VehicleInterface.class
