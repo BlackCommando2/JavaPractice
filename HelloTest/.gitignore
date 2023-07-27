@@ -44,3 +44,5 @@
 /VehicleInterface.class
 /ExceptionTest.class
 /MultiTryCatch.class
+/UserDefinedThrow.class
+/MyException.class
