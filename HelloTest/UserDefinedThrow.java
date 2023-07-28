@@ -5,12 +5,22 @@ class MyException extends Exception {
 	}
 }
 public class UserDefinedThrow {
-	public static void main(String[] args) {
-		try {
-			evenodd(10);
+	public static void main(String[] args) throws MyException{
+		System.out.println(test(10));
+	}
+	
+	public static int test(int x)
+	{
+		try
+		{
+			evenodd(x);
 		}
-		catch(MyException e) {
+		catch(MyException e){
 			System.out.println(e);
+			return(-1);
+		}
+		finally {
+			return(1);
 		}
 	}
 	
