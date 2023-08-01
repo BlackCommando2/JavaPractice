@@ -8,7 +8,7 @@ public class ArrayPrograms {
 		System.out.println("Enter the elements of the array: ");
 		int[] arr = new int[5];
 		int sum=0,smaller=0,larger=0;
-		for (int i = 0; i < 10; i++) 
+		for (int i = 0; i < 5; i++) 
 		{
 			if (sc.hasNextInt()) 
 			{
@@ -22,11 +22,19 @@ public class ArrayPrograms {
 		for(int a: arr) {
 		System.out.println(a);
 		}
+		System.out.println("func: "+getSum(arr));
 		System.out.println(Arrays.toString(arr));
 		System.out.println("sum: "+sum);
-		System.out.println("larger: "+sum);
-		System.out.println("smaller: "+sum);
+		System.out.println("larger: "+larger);
+		System.out.println("smaller: "+smaller);
 
+	}
+	
+	public static int getSum(int... n) {
+		int sum = 0;
+		for (int no : n)
+			sum += no;
+		return sum;
 	}
 
 }
