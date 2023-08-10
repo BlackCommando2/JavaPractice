@@ -1,25 +1,23 @@
 class RBI {
 	public float interestRate;
-	public void setInterestRate()
-	{
+
+	public void setInterestRate() {
 		interestRate = 6.5f;
 	}
-	
-	public float getInterestRate()
-	{
+
+	public float getInterestRate() {
 		return interestRate;
 	}
 }
 
-class SBI extends RBI{
+class SBI extends RBI {
 	public float interestRate;
-	public void setInterestRate()
-	{
+
+	public void setInterestRate() {
 		interestRate = 7.0f;
 	}
-	
-	public float getInterestRate()
-	{
+
+	public float getInterestRate() {
 		return interestRate;
 	}
 }

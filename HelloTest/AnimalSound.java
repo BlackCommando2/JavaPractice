@@ -1,32 +1,35 @@
-abstract class Animal{
+abstract class Animal {
 	public String name;
 	public int age;
+
 	public abstract void makeSound();
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public int getAge() {
 		return age;
 	}
+
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+
 }
 
-class Dog extends Animal{
-	public void makeSound()
-	{
+class Dog extends Animal {
+	public void makeSound() {
 		System.out.println("WOOOOOFFFFFFF");
 	}
 }
 
-class Cat extends Animal{
-	public void makeSound()
-	{
+class Cat extends Animal {
+	public void makeSound() {
 		System.out.println("PURR....MEOW....");
 	}
 }

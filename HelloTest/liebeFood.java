@@ -1,11 +1,8 @@
-class spicyTaste implements FoodTaste
-{
-	public void liebeTaste()
-	{
+class spicyTaste implements FoodTaste {
+	public void liebeTaste() {
 		System.out.println("liebe Spicy");
 	}
 }
-
 
 public class liebeFood {
 
