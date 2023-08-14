@@ -1,7 +1,5 @@
 package CollectionExample;
-
 import java.util.TreeMap;
-import java.util.*;
 public class TreeMap_ {
 	public static void main(String[] args) {
     try {
